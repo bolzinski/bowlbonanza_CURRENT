@@ -1,0 +1,188 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    background:transparent;
+    border:0;
+    margin:0;
+    outline:0;
+    padding:0;
+    vertical-align:baseline;
+    word-wrap:break-word;
+}
+:focus {/* remember to define focus styles! */
+    outline:0;
+}
+
+ol, ul {
+    list-style:none;
+    list-style-position:inside;
+}
+
+table {/* tables still need 'cellspacing="0"' in the markup */
+    border-collapse:separate;
+    border-spacing:0;
+}
+caption, th, td {
+    font-weight:normal;
+    text-align:left;
+}
+
+a img {
+    border:0;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display:block;
+}
+
+/* start my code here */
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+body {
+	text-align:center;
+}
+#container {
+	width: 960px;
+	margin:0 auto;
+	text-align:left;
+}
+h1 {
+	font:"Courier New", Courier, monospace;
+	font-weight:bold;
+	font-size:350%;
+	color:#000033;
+	margin: 20px 0 20px 0;
+}
+h2 {
+	font:"Courier New", Courier, monospace;
+	font-weight:bold;
+	font-size:200%;
+	color:#000033;
+	margin: 20px 0 20px 0;
+}
+
+ul li {
+    float: left;
+	position:relative;
+    width: 150px;
+}
+
+ul li.wide_column {
+	width: 300px;
+}
+input {
+	border: 3px solid black;
+}
+
+input[type=text], input[type=email] {
+	width: 350px;
+	height: 20px;
+	font-size:100%;
+	margin:0 0 10px 0;
+}
+label {
+	color:black;
+	font-size:120%;
+	width: 50px;
+	margin:0 0 10px 0;
+}
+.button {
+	border: 4px solid #000000;
+ 	color: #000000;
+ 	font-size: 100%;
+ 	width: 200px;
+ 	height: 60px;
+	margin: 10px 0 0 0;
+ 	padding: 0;
+	float:left;
+}
+
+.button:hover {
+	border: 4px solid blue;
+ 	color: #ffffff;
+ 	font-size: 100%;
+ 	width: 200px;
+ 	height: 60px;
+	margin: 10px 0 0 0;
+ 	padding: 0;
+}
+.link_button {
+	display:block;
+	
+	float:left;
+}
+.link_button a {
+	background: none repeat scroll 0 0 grey;
+    border: 4px solid #000000;
+    color: #000000;
+    display: block;
+    font-size: 100%;
+    line-height: 2;
+    margin: 20px 0 0 0;
+    padding:0 0 0 0;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+	
+}
+.list_box {
+	width: 100px;
+	height: 20px;
+	font-size:100%;
+	margin:0 0 10px 0;
+	
+}
+.margin_left {
+	margin-left: 200px;
+}
+.link_button a:hover {
+	border: 4px solid blue;
+ 	color: #ffffff;
+}
+ul li.col_header {
+	font-weight:bold;
+	font-size:120%;
+	margin: 10px 0 10px 0;
+}
+ul li.form {
+	float:none;
+	margin:0;
+	padding:5px 0 0 0;
+}
+.selected {
+	color: green;
+	
+}
+.form_error_msg {
+	  background:none;
+	  padding:0;
+	  padding-bottom: 7px;
+	  font-size: 130%; 
+	  font-weight: bold;
+	  color: #a52020;
+}
+.form_msg {
+	  background:none;
+	  padding:10px 0 10px 0;
+	  font-size: 100%; 
+	  font-weight: bold;
+	  color: green;
+}
+.banner_block_menu {
+	display:block;
+	margin: 0 auto;
+}
